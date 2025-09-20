@@ -59,12 +59,16 @@
          :unnarrowed t)
         ("p" "personal") ;;Top-level key is for personal notes
          ("pl" "linux study" plain "%?"
-          :if-new (file+head "Personal/Linux/${slug}.org"
+          :if-new (file+head "Personal/Self-study/Linux/${slug}.org"
                              "#+title: ${title}\n#+author: Minh Le\n#+create: %<%Y-%m-%d-%H:%M:%S>")
           :unnarrowed t)
          ("pp" "people" plain "%?"
-          :if-new (file+head "Personal/People's database/${slug}.org"
+          :if-new (file+head "Personal/People-database/${slug}.org"
                              "#+title: ${title}\n#+author: Minh Le\n#+create: %<%Y-%m-%d-%H-%M-%S>\n#+Birthday: ${Birthday}\n#+Gender: ${Gender}\n#+email: ${email}\n* How do I know them\n* My observation\n")
+          :unnarrowed t)
+         ("p" "math" plain "%?"
+          :if-new (file+head "Personal/Self-study/Math/${slug}.org"
+                             "#+title: ${title}\n#+author: Minh Le\n+creat:%<%Y-%m-%d-%H-%M-%S>\n#+topic: ${topic}")
           :unnarrowed t)))
 ;; Whenever you reconfigure a ;;; config.el --- Description -*- lexical-binding: t; -*-
 ;;
@@ -145,3 +149,12 @@
 
 ;; Enable cdlatex in LaTeX buffers
 (add-hook 'LaTeX-mode-hook #'turn-on-cdlatex)
+
+;;feeds for elfeed
+(elfeed-goodies/setup)
+(setq elfeed-goodies/entry-pane-size 0.5)
+(setq elfeed-feeds (quote
+                    (("https://www.reddit.com/r/archlinux.rss" reddit archlinux)
+                     ("https://www.reddit.com/r/emacs.rss" reddit emacs)
+                     ("https://www.reddit.com/r/FSAE.rss" reddit FSAE)
+                     ("https://archlinux.org/feeds/news/" archlinux news))))
