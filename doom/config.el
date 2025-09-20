@@ -1,4 +1,4 @@
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
@@ -66,9 +66,9 @@
           :if-new (file+head "Personal/People-database/${slug}.org"
                              "#+title: ${title}\n#+author: Minh Le\n#+create: %<%Y-%m-%d-%H-%M-%S>\n#+Birthday: ${Birthday}\n#+Gender: ${Gender}\n#+email: ${email}\n* How do I know them\n* My observation\n")
           :unnarrowed t)
-         ("p" "math" plain "%?"
+         ("pm" "math" plain "%?"
           :if-new (file+head "Personal/Self-study/Math/${slug}.org"
-                             "#+title: ${title}\n#+author: Minh Le\n+creat:%<%Y-%m-%d-%H-%M-%S>\n#+topic: ${topic}")
+                             "#+title: ${title}\n#+author: Minh Le\n#+creat:%<%Y-%m-%d-%H-%M-%S>\n#+topic: ${topic}")
           :unnarrowed t)))
 ;; Whenever you reconfigure a ;;; config.el --- Description -*- lexical-binding: t; -*-
 ;;
@@ -157,4 +157,6 @@
                     (("https://www.reddit.com/r/archlinux.rss" reddit archlinux)
                      ("https://www.reddit.com/r/emacs.rss" reddit emacs)
                      ("https://www.reddit.com/r/FSAE.rss" reddit FSAE)
-                     ("https://archlinux.org/feeds/news/" archlinux news))))
+                     ("https://www.reddit.com/r/OpenFOAM.rss" reddit openfoam)
+                     ("https://www.theguardian.com/world/rss" news guardian)
+                     ("https://rss-bridge.org/bridge01/?action=display&amp;bridge=Formula1Bridge&amp;limit=10&amp;format=Mrss" news F1))))
