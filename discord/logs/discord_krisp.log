@@ -1,0 +1,8 @@
+[2025-Sep-20 13:45:27.307 +07:00][80039:80039][info ] Logging initialized
+[2025-Sep-20 13:45:27.307 +07:00][80039:80039][info ] Initializing krisp SDK...
+[2025-Sep-20 13:45:27.307 +07:00][80039:80039][info ] DoKrispInitialize
+[2025-Sep-20 13:45:27.589 +07:00][80039:80039][info ] LoadDynamicKrisp
+[2025-Sep-20 13:45:27.589 +07:00][80039:80039][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2025-Sep-20 13:45:27.589 +07:00][80039:80039][info ] Initializing Krisp SDK in PID 80039, addr 0x7f0875924ff0
+[2025-Sep-20 13:45:27.593 +07:00][80039:80039][info ] Initialized Krisp SDK successfully
+[2025-Sep-20 13:45:27.593 +07:00][80039:80039][info ] Krisp SDK initialized
