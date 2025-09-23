@@ -52,3 +52,4 @@
 (package! org-roam-ui)
 (package! cdlatex)
 (package! auctex)
+(package! olivetti)
