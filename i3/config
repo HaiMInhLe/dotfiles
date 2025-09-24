@@ -196,17 +196,23 @@ bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
 exec --no-startup-id i3-msg 'workspace 1:Web; exec /usr/bin/firefox'
 
 
-# Screenshots
+#Screenshots
 exec --no-startup-id flameshot
 bindsym Print exec "flameshot gui"
 
-# Set inner/outer gaps
+#Set inner/outer gaps
 gaps inner 7
 gaps outer 2
 
-# Disable window titlebars entirely
+#Disable window titlebars entirely
 for_window [class="^.*"] border pixel 2
 
+#Startup nitrogen when open i3
 exec --no-startup-id nitrogen --restore  
 
+#Startup picom when open i3  
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf  
+
+#Startup Emacsclient's instance when open i3
+exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacsclient -c -a "emacs"' 
+
