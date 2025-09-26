@@ -23,7 +23,7 @@
 ;;
 ;;(setq doom-font (font-spec :family "Fira Code" :size 15 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
-(setq doom-font (font-spec :family "Fira Code" :size 18))
+(setq doom-font (font-spec :family "Fira Code" :size 20))
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
@@ -157,6 +157,4 @@
                     (("https://www.reddit.com/r/archlinux.rss" reddit archlinux)
                      ("https://www.reddit.com/r/emacs.rss" reddit emacs)
                      ("https://www.reddit.com/r/FSAE.rss" reddit FSAE)
-                     ("https://www.reddit.com/r/OpenFOAM.rss" reddit openfoam)
-                     ("https://www.theguardian.com/world/rss" news guardian)
-                     ("https://rss-bridge.org/bridge01/?action=display&amp;bridge=Formula1Bridge&amp;limit=10&amp;format=Mrss" news F1))))
+                     ("https://www.reddit.com/r/OpenFOAM.rss" reddit openfoam))))

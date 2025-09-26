@@ -218,3 +218,6 @@ exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacsclient -c -a "emacs"'
 
 #Lock screen
 bindsym $mod+x exec i3lock --show-failed-attempts -i ~/wallpaper/senna-car.png
+
+#Exexcute fcitx5 when open i3
+exec --no-startup-id fcitx5
