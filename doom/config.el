@@ -62,13 +62,17 @@
           :if-new (file+head "Personal/Self-study/Linux/${slug}.org"
                              "#+title: ${title}\n#+author: Minh Le\n#+create: %<%Y-%m-%d-%H:%M:%S>")
           :unnarrowed t)
-         ("pp" "people" plain "%?"
+         ("ph" "people" plain "%?"
           :if-new (file+head "Personal/People-database/${slug}.org"
                              "#+title: ${title}\n#+author: Minh Le\n#+create: %<%Y-%m-%d-%H-%M-%S>\n#+Birthday: ${Birthday}\n#+Gender: ${Gender}\n#+email: ${email}\n* How do I know them\n* My observation\n")
           :unnarrowed t)
          ("pm" "math" plain "%?"
           :if-new (file+head "Personal/Self-study/Math/${slug}.org"
-                             "#+title: ${title}\n#+author: Minh Le\n#+creat:%<%Y-%m-%d-%H-%M-%S>\n#+topic: ${topic}")
+                             "#+title: ${title}\n#+author: Minh Le\n#+create:%<%Y-%m-%d-%H-%M-%S>\n#+topic: ${topic}")
+          :unnarrowed t)
+         ("pp" "python" plain "%?"
+          :if-new (file+head "Personal/Self-study/Python/${slug}.org"
+                             "#+title: ${title}\n#+author: Minh Le\n#+create:%<%Y-%m-%d-%H-%M-%S>")
           :unnarrowed t)))
 ;; Whenever you reconfigure a ;;; config.el --- Description -*- lexical-binding: t; -*-
 ;;
