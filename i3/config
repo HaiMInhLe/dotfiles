@@ -210,9 +210,6 @@ for_window [class="^.*"] border pixel 2
 #Startup nitrogen when open i3
 exec --no-startup-id nitrogen --restore  
 
-#Startup picom when open i3  
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf  
-
 #Startup Emacsclient's instance when open i3
 exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacsclient -c -a "emacs"' 
 

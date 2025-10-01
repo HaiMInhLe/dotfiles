@@ -154,11 +154,3 @@
 ;; Enable cdlatex in LaTeX buffers
 (add-hook 'LaTeX-mode-hook #'turn-on-cdlatex)
 
-;;feeds for elfeed
-(elfeed-goodies/setup)
-(setq elfeed-goodies/entry-pane-size 0.5)
-(setq elfeed-feeds (quote
-                    (("https://www.reddit.com/r/archlinux.rss" reddit archlinux)
-                     ("https://www.reddit.com/r/emacs.rss" reddit emacs)
-                     ("https://www.reddit.com/r/FSAE.rss" reddit FSAE)
-                     ("https://www.reddit.com/r/OpenFOAM.rss" reddit openfoam))))
