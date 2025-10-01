@@ -1,0 +1,38 @@
+" Turn the syntax highlight on
+syntax on
+
+" Turn the line number on
+set number
+
+" Auto-close parentheses, brackets, and braces
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+
+" Auto-close quotes 
+inoremap " ""<Left>
+
+" Disable compatibility with vi
+set nocompatible 
+
+" Enable filetype detection 
+filetype on 
+filetype plugin on 
+filetype indent on 
+
+" Search down into subfolder
+" Provides tabs-completion for all file related-tasks
+set path+=**
+
+" Display all matching files when we tab complete
+set wildmenu 
+
+" Display status bar
+set laststatus=2
+
+" Automatically wrap text that extends beyond the screen
+set wrap
+
+" Set encoding to a particular type
+set encoding=utf-8
+

@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/Minh/Downloads/yay/src/gopath/pkg/mod/github.com/ohler55/ojg@v1.26.1/cmd/benchmarks/test'
+let g:netrw_dirhist_3='/usr/include/linux'
+let g:netrw_dirhist_2='/home/Minh/Notes/roam/Personal/Self-study/Linux'
+let g:netrw_dirhist_1='/home/Minh/python-stuff'
