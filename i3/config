@@ -189,8 +189,8 @@ bar {
 }
 
 #Screen brightness controls
-bindsym XF86MonBrightnessUp exec brightnessctl s +5%
-bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl s +2%
+bindsym XF86MonBrightnessDown exec brightnessctl s 2%-
 
 #Startup firefox when open i3
 exec --no-startup-id i3-msg 'workspace 1:Web; exec /usr/bin/firefox'
@@ -211,7 +211,7 @@ for_window [class="^.*"] border pixel 2
 exec --no-startup-id nitrogen --restore  
 
 #Startup Emacsclient's instance when open i3
-exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacsclient -c -a "emacs"' 
+exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacs' 
 
 #Lock screen
 bindsym $mod+x exec i3lock --show-failed-attempts -i ~/wallpaper/senna-car.png
