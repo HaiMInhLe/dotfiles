@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 2,
+  "gracePeriod": "72h",
+  "campaigns": [
+    {
+      "version": 1,
+      "advertiserId": "216c5e8c-434d-4c72-a9c5-3a11343dde48",
+      "campaignId": "017d3447-8ded-4289-96f0-0e4d34f3857c",
+      "startAt": "2025-10-04T04:00:00.000Z",
+      "endAt": "2025-10-07T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 51,
+      "ptr": 1,
+      "metrics": "confirmation",
+      "geoTargets": [
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "AM",
+        "AO",
+        "AR",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BF",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BR",
+        "BS",
+        "BT",
+        "BW",
+        "BZ",
+        "CD",
+        "CG",
+        "CH",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CV",
+        "CW",
+        "DE",
+        "DJ",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EG",
+        "ET",
+        "FJ",
+        "FO",
+        "GA",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GT",
+        "GU",
+        "GY",
+        "HN",
+        "HT",
+        "ID",
+        "IM",
+        "IN",
+        "IQ",
+        "JE",
+        "JM",
+        "JO",
+        "KE",
+        "KG",
+        "KH",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LS",
+        "LY",
+        "MA",
+        "MC",
+        "ME",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MQ",
+        "MR",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NG",
+        "NI",
+        "NL",
+        "NP",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PR",
+        "PS",
+        "PY",
+        "QA",
+        "RE",
+        "RS",
+        "RW",
+        "SA",
+        "SC",
+        "SD",
+        "SG",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "UG",
+        "UY",
+        "UZ",
+        "VC",
+        "VI",
+        "VN",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "3a663940-03c7-4438-8cfb-b6eddb59317d",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "6fed8092-e80f-4626-9a3a-cd41f5a9cef4",
+              "targetUrl": "chrome://settings/surveyPanelist",
+              "alt": "Shape the future of Brave - Join Brave's trusted panel to share regular feedback about Brave, influence product decisions and more - join the panel",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "ec1ad1f2-c4f3-4686-91aa-c104ee28d39c/c4c75d74-f211-45eb-989d-137cc1d8c63e.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "ec1ad1f2-c4f3-4686-91aa-c104ee28d39c/4c8a3277-c964-4ad1-b69b-af31be849ce1.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "[virtual]:is_survey_panelist",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|view",
+                  "condition": "[R≤]:20"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|click",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            },
+            {
+              "creativeInstanceId": "abb16932-f5fb-4eb7-98fd-fb942bf6501e",
+              "targetUrl": "chrome://settings/surveyPanelist",
+              "alt": "Shape the future of Brave - Join Brave's trusted panel to share regular feedback about Brave, influence product decisions and more - join the panel",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "a83c5d61-0922-4ca8-b5f0-6886bd69acf1/dc3ba691-3f84-44ce-8a65-3d3e8fdb667e.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "a83c5d61-0922-4ca8-b5f0-6886bd69acf1/4c8a3277-c964-4ad1-b69b-af31be849ce1.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1105,
+                  "y": 720
+                }
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "[virtual]:is_survey_panelist",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|view",
+                  "condition": "[R≤]:20"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|click",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            },
+            {
+              "creativeInstanceId": "0d6a53fd-5e4f-4d73-ba40-502a0fed4792",
+              "targetUrl": "chrome://settings/surveyPanelist",
+              "alt": "Shape the future of Brave - Join Brave's trusted panel to share regular feedback about Brave, influence product decisions and more - join the panel",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "48fd6c0a-d1e9-4b55-8dff-194e56fd21be/02aa31f5-dfec-4fee-91fc-3ae9f917dfc4.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "48fd6c0a-d1e9-4b55-8dff-194e56fd21be/4c8a3277-c964-4ad1-b69b-af31be849ce1.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1105,
+                  "y": 720
+                }
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "[virtual]:is_survey_panelist",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|view",
+                  "condition": "[R≤]:20"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|click",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            },
+            {
+              "creativeInstanceId": "fa33364c-3aed-4d50-a440-1be02b70b9e6",
+              "targetUrl": "chrome://settings/surveyPanelist",
+              "alt": "Shape the future of Brave - Join Brave's trusted panel to share regular feedback about Brave, influence product decisions and more - join the panel",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "b716af8f-22c6-4287-bf1d-7172a3ba1ae1/2f043b95-cc40-47cc-b569-c17795583e3d.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "b716af8f-22c6-4287-bf1d-7172a3ba1ae1/4c8a3277-c964-4ad1-b69b-af31be849ce1.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1104,
+                  "y": 720
+                }
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "[virtual]:is_survey_panelist",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|view",
+                  "condition": "[R≤]:20"
+                },
+                {
+                  "prefPath": "[virtual]:ad_events|017d3447-8ded-4289-96f0-0e4d34f3857c|click",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

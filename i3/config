@@ -193,7 +193,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl s +2%
 bindsym XF86MonBrightnessDown exec brightnessctl s 2%-
 
 #Startup firefox when open i3
-exec --no-startup-id i3-msg 'workspace 1:Web; exec /usr/bin/firefox'
+exec --no-startup-id i3-msg 'workspace 1:Web; exec brave'
 
 
 #Screenshots
@@ -218,3 +218,11 @@ bindsym $mod+x exec i3lock --show-failed-attempts -i ~/wallpaper/senna-car.png
 
 #Exexcute fcitx5 when open i3
 exec --no-startup-id fcitx5
+
+#Execute i3-battery-popup when open i3
+exec --no-startup-id i3-battery-popup -n -L 20 for_window [title="Battery warning"] sticky enable
+
+# autolock
+exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock' &
+
+

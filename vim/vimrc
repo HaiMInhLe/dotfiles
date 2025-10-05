@@ -1,16 +1,29 @@
 " Turn the syntax highlight on
 syntax on
 
+" Set tabstop and shit
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Set indent settings
+set autoindent
+set smartindent
+
+" Set colorscheme
+colorscheme habamax
+
+" Turn off the auto-add comment signature
+set formatoptions-=ro
+
+" Set color
+set termguicolors
+
+" set the mouse
+set mouse=a 
+
 " Turn the line number on
 set number
-
-" Auto-close parentheses, brackets, and braces
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap { {}<Left>
-
-" Auto-close quotes 
-inoremap " ""<Left>
 
 " Disable compatibility with vi
 set nocompatible 

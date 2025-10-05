@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/Minh/Downloads/yay/src/gopath/pkg/mod/github.com/ohler55/ojg@v1.26.1/cmd/benchmarks/test'
-let g:netrw_dirhist_3='/usr/include/linux'
-let g:netrw_dirhist_2='/home/Minh/Notes/roam/Personal/Self-study/Linux'
-let g:netrw_dirhist_1='/home/Minh/python-stuff'
+let g:netrw_dirhist_4='/home/Minh/programming/python-stuff/hacker_rank'
+let g:netrw_dirhist_3='/home/Minh/.config/vim'
+let g:netrw_dirhist_2='/home/Minh/.config'
+let g:netrw_dirhist_1='/home/Minh'
+let g:netrw_dirhist_0='/home/Minh/programming'
+let g:netrw_dirhist_9='/home/Minh/programming/python-stuff'
+let g:netrw_dirhist_8='/home/Minh/programming'
+let g:netrw_dirhist_7='/home/Minh'
+let g:netrw_dirhist_6='/home/Minh/.config'
+let g:netrw_dirhist_5='/home/Minh/.config/vim'
