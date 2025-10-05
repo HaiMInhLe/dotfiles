@@ -23,6 +23,7 @@ font pango:monospace 15
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -193,7 +194,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl s +2%
 bindsym XF86MonBrightnessDown exec brightnessctl s 2%-
 
 #Startup firefox when open i3
-exec --no-startup-id i3-msg 'workspace 1:Web; exec brave'
+exec --no-startup-id i3-msg 'workspace 1:Web; exec /usr/bin/brave'
 
 
 #Screenshots
@@ -223,6 +224,9 @@ exec --no-startup-id fcitx5
 exec --no-startup-id i3-battery-popup -n -L 20 for_window [title="Battery warning"] sticky enable
 
 # autolock
-exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock' &
+exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
+
+# Ensure Brave Browser always opens on a named workspace 1
+assign [class="Brave-browser"] 1: web
 
 
