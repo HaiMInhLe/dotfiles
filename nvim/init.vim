@@ -7,7 +7,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-" Set clipboard support
+" Set copy to clipboard for nvim
 set clipboard=unnamedplus
 
 " Set indent settings
