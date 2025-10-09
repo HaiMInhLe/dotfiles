@@ -7,6 +7,19 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
+" Keybinds
+nnoremap <leader>e :Ex<CR>
+tnoremap <Esc><Esc> <C-\><C-n>
+
+" Always open terminal in a horizontal split at the **bottom**
+command! BT :botright split | resize 10 | terminal
+
+" Open terminal on the right side
+command! RT :rightbelow vsplit | vertical resize 40 | terminal
+
+" Start terminal in insert mode automatically
+autocmd TermOpen * startinsert
+
 " Set copy to clipboard for nvim
 set clipboard+=unnamedplus
 

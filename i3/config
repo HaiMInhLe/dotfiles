@@ -211,7 +211,7 @@ for_window [class="^.*"] border pixel 2
 #Startup nitrogen when open i3
 exec --no-startup-id nitrogen --restore  
 
-#Startup Emacsclient's instance when open i3
+#Startup Emacs when open i3
 exec --no-startup-id i3-msg 'workspace 2:Emacs; exec emacs' 
 
 #Lock screen
@@ -231,5 +231,9 @@ exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000'
 # Ensure Brave Browser always opens on a named workspace 1
 assign [class="Brave-browser"] 1: web
 
+# Execute picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf &
+
+# Execute kitty, but for neovim and coding in general with tmux
+exec --no-startup-id i3-msg 'workspace 3:tmux; exec kitty' 
 
