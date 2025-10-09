@@ -76,10 +76,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+l move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+h move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -88,10 +88,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+Shift+v split h
+bindsym $mod+t split h
 
 # split in vertical orientation
-bindsym $mod+Shift+h split v
+bindsym $mod+b split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -202,7 +202,7 @@ exec --no-startup-id flameshot
 bindsym Print exec "flameshot gui"
 
 #Set inner/outer gaps
-gaps inner 7
+gaps inner 4
 gaps outer 2
 
 #Disable window titlebars entirely
@@ -231,4 +231,5 @@ exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000'
 # Ensure Brave Browser always opens on a named workspace 1
 assign [class="Brave-browser"] 1: web
 
+exec --no-startup-id picom --config ~/.config/picom/picom.conf &
 
