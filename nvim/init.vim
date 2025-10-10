@@ -60,8 +60,8 @@ set wildmenu
 " Display status bar
 set laststatus=2
 
-" Automatically wrap text that extends beyond the screen
-set wrap
+" Set no wrap
+set nowrap
 
 " Set encoding to a particular type
 set encoding=utf-8
