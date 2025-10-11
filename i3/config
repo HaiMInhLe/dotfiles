@@ -229,7 +229,7 @@ for_window [title="Battery warning"] sticky enable
 exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
 
 # Ensure Brave Browser always opens on a named workspace 1
-assign [class="Brave-browser"] 1: web
+assign [class="Brave-browser"] 1: Web
 
 # Execute picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf &
