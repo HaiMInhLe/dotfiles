@@ -225,9 +225,6 @@ exec --no-startup-id /home/Minh/.config/i3/i3-battery-popup -L 20
 
 for_window [title="Battery warning"] sticky enable
 
-# autolock
-exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
-
 # Ensure Brave Browser always opens on a named workspace 1
 assign [class="Brave-browser"] 1: Web
 
