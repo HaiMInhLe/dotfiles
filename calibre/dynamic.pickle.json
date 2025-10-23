@@ -1,0 +1,35 @@
+{
+  "add books dialog dir": "/home/Minh/Downloads",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/mnt/1TB-sandisk/Calibre library",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "8.13"
+    ]
+  },
+  "sort_history": [
+    [
+      "title",
+      true
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}
