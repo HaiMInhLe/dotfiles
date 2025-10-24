@@ -1,7 +1,7 @@
 {
   "book_list_pin_splitter_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAABAP////8A/////wEAAAABAA=="
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
   "cover_grid_background": {
     "dark": [
@@ -116,6 +116,7 @@
       255
     ]
   ],
+  "do_not_show_device_open_popup_message_KINDLE2": true,
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
       "height": 1038,
@@ -132,14 +133,65 @@
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 739,
-      "width": 1399,
-      "x": 0,
-      "y": 0
+      "height": 1034,
+      "width": 1904,
+      "x": 8,
+      "y": 8
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAGAAAABgAAB3kAAAQTAAAAAAAAAAAAAAV2AAAC4gAAAAACAAAAB4AAAAAIAAAACAAAB3cAAAQR"
+      "__value__": "AdnQywADAAAAAAAGAAAABgAAB3kAAAQTAAAACAAAAAgAAAd3AAAEEQAAAAACAAAAB4AAAAAIAAAACAAAB3cAAAQR"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "LG Display",
+      "model": "",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-connect-to-folder-geometry": {
+    "frame_geometry": {
+      "height": 558,
+      "width": 604,
+      "x": 666,
+      "y": 384
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 554,
+      "width": 600,
+      "x": 668,
+      "y": 386
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 554,
+      "width": 600,
+      "x": 668,
+      "y": 386
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAKaAAABgAAABPUAAAOtAAACnAAAAYIAAATzAAADqwAAAAAAAAAAB4AAAAKcAAABggAABPMAAAOr"
     },
     "screen": {
       "depth": 24,
@@ -171,26 +223,26 @@
     "frame_geometry": {
       "height": 724,
       "width": 934,
-      "x": 493,
-      "y": 189
+      "x": 497,
+      "y": 245
     },
     "full_screened": false,
     "geometry": {
       "height": 720,
       "width": 930,
-      "x": 495,
-      "y": 191
+      "x": 499,
+      "y": 247
     },
     "maximized": false,
     "normal_geometry": {
       "height": 720,
       "width": 930,
-      "x": 495,
-      "y": 191
+      "x": 499,
+      "y": 247
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAHtAAAAvQAABZIAAAOQAAAB7wAAAL8AAAWQAAADjgAAAAAAAAAAB4AAAAHvAAAAvwAABZAAAAOO"
+      "__value__": "AdnQywADAAAAAAHxAAAA9QAABZYAAAPIAAAB8wAAAPcAAAWUAAADxgAAAAAAAAAAB4AAAAHzAAAA9wAABZQAAAPG"
     },
     "screen": {
       "depth": 24,
@@ -219,8 +271,9 @@
     }
   },
   "grid view visible": false,
+  "last_connected_folder_as_device": null,
   "library_usage_stats": {
-    "/mnt/1TB-sandisk/Calibre library": 2
+    "/mnt/1TB-sandisk/Calibre library": 12
   },
   "main_window_central_widget_state": {
     "layout": "wide",
@@ -257,5 +310,6 @@
   "quick_start_guide_added": true,
   "qv_open_at_shutdown": false,
   "search bar visible": true,
+  "server3_warning_done": true,
   "tag browser search box visible": false
 }
